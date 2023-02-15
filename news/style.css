@@ -1,4 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 400px;
-    background-color: brown;
+    background: url(../images/linhao-zhang-81b_44bhPbc-unsplash.jpg) bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(88, 232, 158);
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
