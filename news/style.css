@@ -28,16 +28,17 @@ article {
     width: 768px;
     margin: 0 auto 32px;
     padding: 6px 15px;
-    border-bottom: 1px solid rgb(148, 101, 101);
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 article a {
-    color: black;
+    color: rgb(92, 92, 92);
     text-decoration: none;
 }
 
 article a:hover {
-    color: aqua;
+    color: rgb(24, 91, 91);
+    
 }
 
 article h2 {
