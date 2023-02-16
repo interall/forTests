@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-}
+} /*убтраем границы*/
 
 header{
     display: flex;
@@ -10,31 +10,30 @@ header{
     height: 400px;
     background: url(../images/linhao-zhang-81b_44bhPbc-unsplash.jpg) bottom no-repeat;
     background-size: cover;
-}
+} /*уравниваем верхнюю картинку*/
+
+.news {
+    background-color: rgb(250, 230, 204) ;
+    padding: 50px 0 32px;
+} /*общий фон*/
 
 h1 {
     color: rgb(44, 111, 79);
     font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 10px;
-}
-
-.news {
-    background-color: beige;
-    padding: 50px 0 32px;
-}
+} /*изменяем заголовок*/
 
 article {
     width: 768px;
     margin: 0 auto 32px;
     padding: 6px 15px;
-    border-bottom: thick double rgb(44, 111, 79);
-
-}
+    border-bottom: thick double rgb(44, 111, 79); 
+} /*размеры вссех новостей*/
 
 article:nth-child(even) {
     background: rgba(237, 211, 170, 0.578);
-  }
+  } /*каждая чётная новость помнчена*/
   
   article .New::before {
     content: 'New';
@@ -44,42 +43,42 @@ article:nth-child(even) {
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding-right: 5px;
     border-bottom: dashed rgb(44, 111, 79);
-}
+} /*первые две новости Новые*/
 
 article a {
     color: rgb(92, 92, 92);
     text-decoration: none;
-}
+} /*цвет ссылок*/
 
 article a:hover {
     color: rgb(44, 166, 97);
-}
+} /*цвет ссылки при наведении*/
 
 article h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 5px;
-}
+} /*заголовки новостей, стиль*/
 
 .article-meta {
     color: rgb(237, 192, 124);
     margin-bottom: 5px;
-}
+} /*автор и время*/
 
 article img {
     width: 100%;
     height: 400px;
     object-fit: cover;
-}
+} /*картинки к новостям*/
 
 footer {
     padding-top: 20px;
     padding-bottom: 60px;
     text-align: center;
-}
+} /*размер места контактов*/
 
 footerv .links {
     margin-bottom: 50px;
-}
+} /*размер кнопок контактов*/
 
 footer .links > a {
     color: rgb(76, 78, 78) ;
@@ -89,9 +88,9 @@ footer .links > a {
     letter-spacing: 1rem;
     text-decoration: none;
     text-transform: uppercase;
-}
+} /*цвет и размер слов ссылок*/
 
 .copyright {
     color: antiquewhite;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} /*цвет авторских прав*/
