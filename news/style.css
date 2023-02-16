@@ -35,10 +35,16 @@ article {
 article:nth-child(even) {
     background: rgba(237, 211, 170, 0.578);
   }
-
-  h2:nth-child(-n + 2){
-    <span> new </span>
-  }
+  
+  article .New::before {
+    content: 'New';
+    color: rgb(44, 111, 79);
+    font-style: italic;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-right: 5px;
+    border-bottom: dashed rgb(44, 111, 79);
+}
 
 article a {
     color: rgb(92, 92, 92);
